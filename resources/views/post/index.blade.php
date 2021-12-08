@@ -42,7 +42,7 @@
                                     @endif
                                 </td>
                                    <td colspan="3">
-                                    <a href="{{route('publish')}}" class="btn btn-success"><i class="fas fa-paste 2x"></i></a>
+                                    <a href="{{route('publish',$post)}}" class="btn btn-success"><i class="fas fa-paste 2x"></i></a>
                                     <a href="" class="btn btn-primary"><i class="fas fa-edit 2x"></i></a>
                                     <a href="" class="btn btn-danger"><i class="fas fa-trash-alt 2x"></i></a>
                                    </td>
