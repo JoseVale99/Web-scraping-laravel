@@ -11,4 +11,13 @@ class PostController extends Controller
 
        return view('post.index',compact('posts'));
    }
+
+   public function publish(Post $post){
+       $post->update(
+           [
+            'is_published' => true
+           ]
+       );
+       return back();
+}
 }
