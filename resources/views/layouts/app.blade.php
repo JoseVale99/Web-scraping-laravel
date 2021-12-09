@@ -61,11 +61,12 @@
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
-                                    <a class="dropdown-item" href="{{ route('scraping') }}"
-                                    onclick="event.preventDefault();
-                                                  document.getElementById('logout-form').submit();">
-                                     {{ __('scraping data') }}
+                                    <a class="dropdown-item" href="{{ route('scraping') }}">
+                                     {{ __('scraping') }}
                                  </a>
+                                 <a class="dropdown-item" href="{{ route('rss.feed') }}">
+                                    {{ __('RSS') }}
+                                </a>
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                         @csrf
                                     </form>
