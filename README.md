@@ -41,7 +41,9 @@ You must install the following dependencies copy and paste in your file [compose
 ## Screenshots
 ![App](Screenshot_20211210_032107.png)
 
-
+## Documentacion
+If you want to know more about the Telegram API
+I invite you to read [HERE](https://t.me/scraping_web_ebuubs)
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
