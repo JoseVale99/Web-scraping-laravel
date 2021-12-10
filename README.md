@@ -8,7 +8,7 @@
 </p>
 
 ## Web Scraping whit Laravel Framework version 7.x
-This project we use web scraping or web scraping, this technique is used to extract information from websites in this case of [comptrabajo](https://www.computrabajo.com.mx/trabajo-de-desarrollador?q=Developer) of this we extract data such as:
+This project we use web scraping or web scraping, this technique is used to extract information from websites in this case of [computrabajo](https://www.computrabajo.com.mx/trabajo-de-desarrollador?q=Developer) of this we extract data such as:
 - Title of the job offer.
 - Location of the same.
 - Description of the job offer.
@@ -26,10 +26,10 @@ To execute this project:
 ## Configuration
 In your .env file you should insert your api token from your bot created by the [@botfather](https://t.me/botfather)
 ```bash
-     TELEGRAM_BOT_TOKEN=TU_API_TOKEN_AQUI
+     TELEGRAM_BOT_TOKEN=YOUR_API_TOKEN _HERE
 ```
 ## Dependencies
-You must install the following dependencies copy and paste in your file [composer.json] (composer.json).
+You must install the following dependencies copy and paste in your file [composer.json](composer.json).
 ```json
  "require": {
         "guzzlehttp/guzzle": "^6.3.1|^7.0.1",
