@@ -34,11 +34,4 @@ class PostController extends Controller
 
        return back();
 }
-
-    public function sendMessage($notifiable){
-    TelegramFile::create()
-        ->to($notifiable->telegram_user_id) // Optional
-        ->content('Did you know we can set a custom filename too?')
-        ->document('https://file-examples-com.github.io/uploads/2017/10/file-sample_150kB.pdf', 'sample.pdf');
-    }
 }
