@@ -17,8 +17,8 @@ Data that is stored in a database.
 
 
 To execute this project:
-1. Execute the "Composer Update` command to update dependencies.
-2. Configure your databases in the .env file.
+1. Execute the `Composer Update` command to update dependencies.
+2. Configure your databases in the `.env` file.
 3. Run the command `php artisan migrate --sed`
 4. Finally the command `php artisan serve`
 
