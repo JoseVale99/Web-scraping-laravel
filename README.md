@@ -24,7 +24,7 @@ To execute this project:
 
 
 ## Configuration
-In your `.env ` file you should insert your api token from your bot created by the [@botfather](https://t.me/botfather)
+In your `.env `  file you should insert your api token from your bot created by the [@botfather](https://t.me/botfather)
 ```bash
      TELEGRAM_BOT_TOKEN=YOUR_API_TOKEN _HERE
 ```
